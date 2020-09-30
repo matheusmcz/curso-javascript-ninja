@@ -107,7 +107,7 @@ function desafio(a, b, c){
     if(a == undefined && b == undefined && c == undefined){
         return console.log(false)
     }
-    else if(b == undefined && c == undefined){
+    else if(a != undefined && b == undefined && c == undefined){
         return console.log(`Argumento passado: a = ${a}`) 
     }
     else if(c == undefined){
