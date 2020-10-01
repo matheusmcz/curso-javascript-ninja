@@ -1,3 +1,4 @@
+//AULA
 // var myvar = function(){
 //     return 'variável myvar';
 // }
@@ -18,6 +19,8 @@
 // }
 // dados.aniversario()
 // console.log(dados)
+
+//Exercicio Challenge 03
 
 let vazio = {}
 let pessoa = {
@@ -63,6 +66,7 @@ pessoa.andar(5)
 pessoa.andar(10)
 pessoa.parar()
 pessoa.apresentacao = function(){
+  //validaçoes de sexo Masculino , idade e distancia de caminhada para alterar o plural ou singular nas frases.
     if(pessoa.sexo === 'Masculino' && pessoa.idade > 1 && pessoa.caminhouQuantosMetros >1){
         return `Olá, eu sou o ${pessoa.nomeCompleto()}, tenho ${pessoa.mostrarIdade()} anos de idade,
 ${pessoa.mostrarAltura()},meu peso é ${pessoa.mostrarPeso()} e,
@@ -87,6 +91,7 @@ ${pessoa.mostrarAltura()},meu peso é ${pessoa.mostrarPeso()} e,
 só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} metro!`
             
     }
+  //validaçoes de sexo Feminino , idade e distancia de caminhada para alterar o plural ou singular nas frases.
     if(pessoa.sexo === 'Feminino' && pessoa.idade > 1 && pessoa.caminhouQuantosMetros >1){
         return `Olá, eu sou a ${pessoa.nomeCompleto()}, tenho ${pessoa.mostrarIdade()} anos de idade,
 ${pessoa.mostrarAltura()},meu peso é ${pessoa.mostrarPeso()} e,
